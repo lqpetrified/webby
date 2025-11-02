@@ -1,4 +1,9 @@
-body {
+.main {
+    display: block;
     background: rgb(188, 188, 234);
     color: rgb(35, 45, 95);
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    margin-top: 20px;
 }
