@@ -1,14 +1,48 @@
-.main {
-    display: block;
-    background: rgb(188, 188, 234);
-    color: rgb(35, 45, 95);
+/* Base styling */
+body {
+    background-color: rgb(35, 45, 95); 
     font-size: 20px;
-    font-weight: lighter;
-    text-align: left;
-    margin-top: 20px;
+    margin: 0;
 }
-.img {
-    display: block;
+
+/* Top section */
+.top {
+    margin-top: 30vh;
+    color: rgb(217, 217, 234);
+    text-align: center;
+}
+
+.top h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.top p {
+    font-size: 15px;
+    margin-bottom: 250px;
+}
+
+/* Middle section */
+.middle {
+    margin-top: 250px;
+}
+
+.middle ul {
+    margin-top: 100px;
     margin: 0 auto;
-    height: 30vw;
+    width: auto;
+    text-align: left;
+}
+
+.middle h1 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* white seperator thibg */
+.sep {
+    margin-top: 0;
+    background-color: rgb(217, 217, 234);
+    height: 80px;
+    margin-bottom: 250px;
 }
